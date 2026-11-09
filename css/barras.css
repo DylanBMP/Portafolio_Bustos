@@ -1,0 +1,84 @@
+#redes{
+    position: fixed;
+    z-index: 100000;
+    top: 40%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+#redes a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 0 5px 5px 0;
+    transition: width 0.3s ease-out;
+}
+#redes a:hover{
+    width: 50px;
+    background-color: #000000;
+}
+#facebook a{
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition:0.5s ease-out;
+}
+#facebook a:hover{
+    background: black;
+    padding: 10px 30px;
+    transition:0.5s ease-out;
+}
+#twitter a{
+    background: rgb(9, 211, 238);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition:0.5s ease-out;
+}
+#twitter a:hover{
+    background: black;
+    padding: 10px 30px;
+    transition:0.5s ease-out;
+}
+#instagram a{
+    background: deeppink;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition:0.5s ease-out;
+}
+#instagram a:hover{
+    background: black;
+    padding: 10px 30px;
+    transition:0.5s ease-out;
+}
+#youtube a{
+    background: rgb(245, 2, 2);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition:0.5s ease-out;
+}
+#youtube a:hover{
+    background: black;
+    padding: 10px 30px;
+    transition:0.5s ease-out;
+}
+
+/*Mediaqueris para Tablet*/
+@media only screen and (max-width:980px){
+    
+}
+
+/*Mediaqueris para Celulares*/
+@media only screen and (max-width:480px){
+    #redes {
+        display: none;
+    }
+}

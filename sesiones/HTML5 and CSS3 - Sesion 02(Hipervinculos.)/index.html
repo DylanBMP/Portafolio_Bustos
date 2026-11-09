@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geografía</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+    <header>
+    <h1> Significado de la Geografía</h1>
+    </header>
+    <blockquote>
+    <main>
+        <h2><u>Concepto</u></h2>
+        <p>Entendemos por Geografía a aquella <b>ciencia que se interesa por el análisis de los fenómenos relacionados con la Tierra</b>, tanto desde un punto de vista natural como humano. Es por esto que para la Geografía no sólo es importante todo lo que tenga que ver con la superficie, los elementos naturales y territoriales, si no también con la población que habita esos territorios y la adaptación a diferentes tipos de espacios.Proveniente del griego, <b>la palabra Geografía </b> significa "descripción de la Tierra", y es así que esta ciencia se preocupará por describir y analizar diferentes aspectos relacionados con nuestro planeta. Para realizar tal análisis se puede recurrir a diversos enfoques que harán variar el objeto de estudio o el interés.</p>
+        <p>Con el avance de la <b>tecnología y los geo localizadores </b> al alcance de todos, cada vez menos personas se interesan en su estudio, lo cierto es que esta ciencia estudia a detalle lo que pasa en el planeta respecto a sus condiciones climáticas, orográficas y los diferentes fenómenos naturales. Incluye el análisis espacial de los fenómenos humanos y naturales, la exploración de las ciencias de la tierra, y el estudio de la relación entre <b> naturaleza y la vida humana. </b> También analiza los procesos sociales, económicos y ambientales que afectan al medio ambiente. ¿No te parece que es importante saber sobre ella a profundidad?.</p>
+    <div>
+        <img src="img/img0.jpg" alt="Planeta" width="600px">
+    </div>
+    <hr>
+    <h2 align="center"><u>Importancia de la Geografía</u></h2>
+        <p>La geografía general es una rama de la geografía y se puede definir como el estudio de las diferencias y los cambios de características, localizaciones de los fenómenos geográficos y sus relaciones con el entorno natural y la acción con el ser humano. Se suele subdividir en dos grandes ramas: la geografía física y la geografía humana.</p>
+    </main>
+    <footer>
+    <div align="center" class="contenedor-subtitulos">
+        <button onclick="mostrar('fisica')">Geografía Física</button></span>
+        <span class="separador">|</span>
+        <button onclick="mostrar('humana')">Geografía Humana</button></span>
+        <span class="separador">|</span>
+        <button onclick="mostrar('regional')">Geografía Regional</button></span>
+    </div>
+
+    <div align="center" id="fisica" class="info-seccion">
+        <p>La geografía física es la subdisciplina de la geografía que estudia <b>los fenómenos naturales y componentes físicos de la superficie terrestre</b>, incluyendo relieve, clima, hidrografía, suelos y vegetación. Analiza <b>la interacción entre la litosfera, atmósfera, hidrosfera y biosfera</b>, examinando su evolución y la influencia humana en estos procesos.</p>
+        <img src="img/img1.jpg" width="400px">
+    </div>
+
+    <div align="center" id="humana" class="info-seccion" style="display:none">
+        <p>La geografía humana se sitúa dentro de la geografía como una ciencia eminentemente social cuyo objeto de estudio es <b>la sociedad y su relación con el espacio físico</b>. Dentro de ella, en función del objeto específico de estudio se pueden distinguir varias áreas como son la geografía médica, la geografía del transporte, la geografía de la población, del transporte, económica, y de los territorios. También estudia al <b>ser humano y sus relaciones con el entorno.</b> La geografía humana contiene varias subdisciplinas: Geografía de la población, la geografía médica, la geografía del transporte, la geografía económica (industrial, sector servicios, turística, política, social, gerontológica, histórica, geografía rural, geografía urbana y la geografía cultural).</p>
+        <img src="img/img2.jpg" width="400px">
+    </div>
+
+    <div align="center" id="regional" class="info-seccion" style="display:none">
+        <p>Finalmente, la geografía regional es la rama de la geografía que estudia de manera sintética y holística <b>complejos geográficos específicos (territorios, paisajes o regiones)</b>. A diferencia de la geografía general, se centra en <b>la interacción única entre elementos físicos y humanos en áreas delimitadas</b>, siendo considerada históricamente <b>el eje central de la disciplina</b>.</p>
+        <img src="img/img01.jpg" width="400px">
+    </div>
+
+    <script>
+    function mostrar(id) {
+        // Esconde todas las secciones
+        document.querySelectorAll('.info-seccion').forEach(div => {
+            div.style.display = 'none';
+        });
+        // Muestra solo la que clickeaste
+        document.getElementById(id).style.display = 'block';
+    }
+    </script>
+    <hr>
+    <p align="center"> <b>Siguenos en:</b> </p>
+        <p style="text-align: center;">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/facebook.png" alt="Facebook" width="40" style="margin: 0 10px">
+            </a>
+            
+            <a href="https://x.com/" target="_blank">
+                <img src="img/twiter.png" alt="Twitter" width="40" style="margin: 0 10px">
+            </a>
+    
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="img/youtube.png" alt="YouTube" width="40" style="margin: 0 10px;">
+            </a>
+        </p>
+    <p align="center"> Creado y desarrollado <b>&copy</b>; por el alumno de Diseño y Desarrollo de Software <br><b><i><u>Dylan Paul Bustos Mauricio.</u></i></b></p>
+    </footer>
+    </blockquote>
+    </section>
+</body>
+</html>
